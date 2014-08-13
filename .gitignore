@@ -12,13 +12,13 @@
 hs_err_pid*
 
 #Maven Files
-/target/
+target
 
 #Eclipse Files
-/.settings/
-/Users/
-/.classpath
-/.project
+.settings
+Users
+.classpath
+.project
 
 #Mac Files
 .DS_Store
