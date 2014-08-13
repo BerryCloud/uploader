@@ -1,0 +1,12 @@
+<!DOCTYPE configuration>
+<configuration>
+
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+
+	<logger name="com.berrycloud" level="DEBUG" />
+
+<!-- 
+	<root level="DEBUG" />
+ -->
+
+</configuration>
