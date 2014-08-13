@@ -8,6 +8,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
 	<!-- Inherit defaults from Spring Boot -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -42,6 +46,7 @@
 		</dependency>
 	</dependencies>
 
+	<!-- Package as an executable jar -->
 	<build>
 		<plugins>
 			<plugin>
@@ -57,5 +62,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
